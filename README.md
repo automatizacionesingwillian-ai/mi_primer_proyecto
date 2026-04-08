@@ -11,7 +11,7 @@ La tabla está diseñada de manera responsiva y con estilos visuales que facilit
 - Tabla interactiva con los operadores más comunes en programación
 -  Diseño moderno y responsivo con gradientes y efectos hover
 -  Distinción visual entre operadores de comparación (rojo) y operadores lógicos (verde)
-- 📱 Compatible con dispositivos móviles y escritorio
+- Compatible con dispositivos móviles y escritorio
 
 ## Operadores Incluidos
 
