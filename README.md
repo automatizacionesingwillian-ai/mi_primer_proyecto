@@ -8,9 +8,9 @@ La tabla está diseñada de manera responsiva y con estilos visuales que facilit
 
 ## Características
 
-- 📊 Tabla interactiva con los operadores más comunes en programación
-- 🎨 Diseño moderno y responsivo con gradientes y efectos hover
-- 🔴 Distinción visual entre operadores de comparación (rojo) y operadores lógicos (verde)
+- Tabla interactiva con los operadores más comunes en programación
+-  Diseño moderno y responsivo con gradientes y efectos hover
+-  Distinción visual entre operadores de comparación (rojo) y operadores lógicos (verde)
 - 📱 Compatible con dispositivos móviles y escritorio
 
 ## Operadores Incluidos
@@ -77,4 +77,4 @@ Este proyecto forma parte de un ejercicio educativo para aprender sobre:
 
 ---
 
-**Última actualización:** Abril 2026
+**Última actualización de mi autoria Willian Pantoja:** Abril 2026
