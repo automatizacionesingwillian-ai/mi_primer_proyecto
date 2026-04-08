@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    background-color: white;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+    max-width: 900px;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+table thead {
+    background-color: #667eea;
+    color: white;
+    font-weight: 600;
+}
+
+table th {
+    padding: 18px;
+    text-align: left;
+    font-size: 1.1em;
+    border: 2px solid #667eea;
+}
+
+table td {
+    padding: 16px 18px;
+    border: 2px solid #ddd;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+/* Estilos para operadores de comparación */
+table tbody tr.comparison {
+    background-color: #f0f4ff;
+}
+
+table tbody tr.comparison:hover {
+    background-color: #e0e8ff;
+}
+
+table tbody tr.comparison td:first-child {
+    color: #d9534f;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+/* Estilos para operadores lógicos */
+table tbody tr.logical {
+    background-color: #f0fff0;
+}
+
+table tbody tr.logical:hover {
+    background-color: #e0ffe0;
+}
+
+table tbody tr.logical td:first-child {
+    color: #5cb85c;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+/* Estilo para la columna Tipo */
+table td:nth-child(2) {
+    font-weight: 500;
+    color: #666;
+}
+
+/* Estilo para la columna Descripción */
+table td:nth-child(3) {
+    color: #555;
+    line-height: 1.5;
+}
+
+/* Efecto de fila alternada */
+table tbody tr:nth-child(even) {
+    opacity: 0.9;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    table th,
+    table td {
+        padding: 12px;
+        font-size: 0.9em;
+    }
+
+    table th {
+        font-size: 0.95em;
+    }
+}
